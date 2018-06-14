@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="wrong",
-    version="0.0.1",
+    version="0.0.0",
     author="Seung Jae (Ryan) Lee",
     author_email="seungjaeryanlee@gmail.com",
     description="Evaluate your unit test skills",
