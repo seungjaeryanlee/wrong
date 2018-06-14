@@ -49,3 +49,27 @@ def test_sort_2():
     sort_2(after)
 
     assert not _is_correct_sort(before, after)
+
+def test_sort_3():
+    """
+    Tests sort_3, the incorrect implementation of sort() that reverses the
+    given list.
+    """
+    random.seed(42)
+    before = _get_random_list()
+    after = before.copy()
+    sort_3(after)
+
+    assert not _is_correct_sort(before, after)
+
+def test_sort_4():
+    """
+    Tests sort_3, the incorrect implementation of sort() that reverses the
+    given list.
+    """
+    random.seed(42)
+    before = _get_random_list()
+    after = before.copy()
+    sort_3(after)
+
+    assert not _is_correct_sort(before, after)

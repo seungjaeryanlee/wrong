@@ -1,7 +1,7 @@
 # A mini version of the wrong package. Chose one wrong implementation for
 # each module. Allows for a simpler syntax (from wrong import sort). The
 # wrong implementation that is most informative to the user should be selected.
-from .sort import sort_1 as sort
+from .sort import sort_3 as sort
 
 # Import all wrong implementations of each module for the importer function.
 from .sort import *

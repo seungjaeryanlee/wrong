@@ -22,3 +22,18 @@ def sort_2(l):
     list.
     """
     l.reverse()
+
+def sort_3(l):
+    """
+    An incorrect implementation of the sort() function. Sorts given list in
+    reverse order.
+    """
+    l.sort(reverse=True)
+
+def sort_4(l):
+    """
+    An incorrect implementation of the sort() function. Doesn't work if there
+    are duplicate elements.
+    """
+    l = list(set(l))
+    l.sort()
