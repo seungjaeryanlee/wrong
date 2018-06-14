@@ -21,4 +21,4 @@ def sort_2(l):
     An incorrect implementation of the sort() function. Reverses the given
     list.
     """
-    return list(reversed(l))
+    l.reverse()
